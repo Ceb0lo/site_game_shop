@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="section-title navbar-brand m-0 ">Game Shop</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navg">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navg">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#home" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#promocoes" class="nav-link">
+                            <i class="bi bi-basket3 me-1"></i>
+                            Promoções
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#jogos" class="nav-link">
+                            <i class="bi bi-dpad me-1"></i>
+                            Jogos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-telephone me-1"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-target="#cabecalho" data-bs-spy="scroll" data-bs-smooth-scroll="true">
+        <section id="home">
+            <div class="container">
+                <article class="carousel slide" id="carousel" data-bs-ride="carousel">
+                    <ol class="carousel-inner center-block">
+                        <li class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-100" src="/img/banner_black_myth_wukong.jpg" alt="black myth wukong">
+                        </li>
+                        <li class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="/img/banner_guilty_gear_strive.jpg" alt="guilty gear strive">
+                        </li>
+                        <li class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="/img/banner_hollow_knight.jpg" alt="hollow knight">
+                        </li>
+                        <li class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="/img/banner_resident_evil_4_remak.jpg" alt="resident evil 4">
+                        </li>
+                    </ol>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    </div>
+                </article>
+                <article class="row">
+                    <div class="col-md-5">
+                        <img class="d-block w-100 rounded" src="/img/loja_de_video_jogo.jpg" alt="foto da loja">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Quem <span class="text-colored">Somos</span></h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea quas nemo animi culpa veniam quo blanditiis dolor dolorem, veritatis, numquam dolore expedita aut. Ipsam reprehenderit quos soluta quibusdam, quam officiis.</p>
+                        <h3 class="section-title">Com <span class="text-colored">Trabalhamos</span></h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus neque, ducimus at laboriosam autem, quae velit quaerat dolorem adipisci modi natus, maxime ut. Nihil qui debitis quod, quia est consequatur!</p>
+                        <ul>
+                            <li>Xbox Series S</li>
+                            <li>Playstation 5</li>
+                            <li>Nintendo Switch</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="promocoes">
+            <div class="container">
+                <article class="row">
+                    <h2 class="section-title text-center">Promo<span class="text-colored">ções</span></h2>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="/img/banner_blasphemous.jpg" alt="blasphemous">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-cash-coin me-1"></i>
+                                Blasphemous
+                            </h3>
+                            <h6>De <strike>R$133,90</strike> para R$33,47</h6>
+                            <p>
+                                Blasphemous é um jogo de ação em plataforma brutal com um combate desafiador. Explore o mundo sinistro de Cvstodia, melhore suas habilidades e execute com violência as hordas de inimigos que se colocam entre você e sua peregrinação para interromper o ciclo de perdição eterna.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="/img/banner_dying_light.jpg" alt="dying light">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-cash-coin me-1"></i>
+                                Dying Light
+                            </h3>
+                            <h6>De <strike>R$50,99</strike> para R$10,19</h6>
+                            <p>
+                                Um jogo de ação e sobrevivência em primeira pessoa em um mundo aberto pós-apocalíptico tomado por zumbis comedores de carne humana. Atravesse uma cidade devastada por um vírus misterioso. Procure por suprimentos, crie armas e enfrente os infectados.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="d-block w-100 rounded mb-2" src="img/banner_lies_of_p.jpg" alt="lies of p">
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-cash-coin me-1"></i>
+                                Lies Of P
+                            </h3>
+                            <h6>De <strike>R$249,90</strike> para R$125,45</h6>
+                            <p>
+                                Lies of P é um soulslike emocionante que pega a história de Pinóquio, vira-a de ponta-cabeça e coloca-a num cenário sombrio e elegante da era belle époque.
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="jogos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">Jogos</span>
+                    </h2>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column">
+                                <button class="fw-bold text-start nav-link text-colored active" type="button" data-bs-toggle="tab" data-bs-target="#tab_1">SOULSLIKE</button>
+                                <button class="fw-bold text-start nav-link text-colored" type="button" data-bs-toggle="tab" data-bs-target="#tab_2">METROIDVANIA</button>
+                                <button class="fw-bold text-start nav-link text-colored" type="button" data-bs-toggle="tab" data-bs-target="#tab_3">TERROR</button>
+                                <button class="fw-bold text-start nav-link text-colored" type="button" data-bs-toggle="tab" data-bs-target="#tab_4">LUTA</button>
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="tab_1">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_elden_ring.jpg" alt="elden ring">
+                                            <h5 class="text-colored fw-bold mt-2">Elden Ring</h5>
+                                            <h6>R$249,90</h6>
+                                            <p>O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/banner_lies_of_p.jpg" alt="lies of p">
+                                            <h5 class="text-colored fw-bold mt-2">Lies Of P</h5>
+                                            <h6>De <strike>R$249,90</strike> para R$125,45</h6>
+                                            <p>Lies of P é um soulslike emocionante que pega a história de Pinóquio, vira-a de ponta-cabeça e coloca-a num cenário sombrio e elegante da era belle époque.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_black_myth_wukong.jpg" alt="black myth wukong">
+                                            <h5 class="text-colored fw-bold mt-2">Black Myth: Wukong</h5>
+                                            <h6>R$229,99</h6>
+                                            <p>Black Myth: Wukong é um RPG de ação inspirado na mitologia chinesa. Você assume o papel do Predestinado e tem a responsabilidade de encarar os desafios e as maravilhas do mundo para desvendar a verdade obscura por trás de uma lenda gloriosa do passado.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_dark_souls_3.jpg" alt="">
+                                            <h5 class="text-colored fw-bold mt-2">DARK SOULS III</h5>
+                                            <h6>R$229,99</h6>
+                                            <p>DARK SOULS™ continua a ultrapassar seus próprios limites em um ambicioso novo capítulo da série que definiu um gênero e que é aclamada pela crítica. Prepare-se para abraçar a escuridão!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab_2">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_hollow_knight.jpg" alt="hollow knight">
+                                            <h5 class="text-colored fw-bold mt-2">Hollow Knight</h5>
+                                            <h6>R$46,99</h6>
+                                            <p>Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_blasphemous.jpg" alt="blasphemous">
+                                            <h5 class="text-colored fw-bold mt-2">Blasphemous</h5>
+                                            <h6>De <strike>R$133,90</strike> para R$33,47</h6>
+                                            <p>Blasphemous é um jogo de ação em plataforma brutal com um combate desafiador. Explore o mundo sinistro de Cvstodia, melhore suas habilidades e execute com violência as hordas de inimigos que se colocam entre você e sua peregrinação para interromper o ciclo de perdição eterna.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_prince_of _persia_the_lost_crown.jpg" alt="Prince Of Persia The Lost Crown">
+                                            <h5 class="text-colored fw-bold mt-2">Prince Of Persia The Lost Crown</h5>
+                                            <h6>R$199,99</h6>
+                                            <p>Viaje para um empolgante jogo de plataforma de aventura e ação no mundo mitológico persa, onde os limites do tempo e do espaço são seus para manipular.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_bloodstained.jpg" alt="Bloodstained">
+                                            <h5 class="text-colored fw-bold mt-2">Bloodstained</h5>
+                                            <h6>R$75,49</h6>
+                                            <p>Bloodstained: Ritual of the Night is an exploration-focused, side-scroller action RPG by Koji Igarashi. Play as Miriam, an orphan scarred by an alchemist's curse that slowly crystallizes her body. Battle through a demon-infested castle and defeat its master to save yourself, and all of humanity!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab_3">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/banner_resident_evil_4_remak.jpg" alt="Resident Evil 4">
+                                            <h5 class="text-colored fw-bold mt-2">Resident Evil 4</h5>
+                                            <h6>R$169,00</h6>
+                                            <p>Sobrevivência é apenas o começo. Seis anos se passaram desde o desastre biológico em Raccoon City. Leon S. Kennedy, um dos sobreviventes, segue o rastro da raptada filha do presidente até uma vila europeia isolada, onde há algo terrivelmente errado com os habitantes.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_dead_space.jpg" alt="Dead Space">
+                                            <h5 class="text-colored fw-bold mt-2">Dead Space</h5>
+                                            <h6>R$249,00</h6>
+                                            <p>O clássico de terror de sobrevivência e ficção científica está de volta, totalmente reformulado para oferecer uma experiência ainda mais imersiva, incluindo aprimoramentos visuais, de áudio e de jogabilidade, ao mesmo tempo em que se mantém fiel à emocionante visão do jogo original.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_dying_light.jpg" alt="Dying Light">
+                                            <h5 class="text-colored fw-bold mt-2">Dying Light</h5>
+                                            <h6>De <strike>R$50,99</strike> para R$10,19</h6>
+                                            <p>Um jogo de ação e sobrevivência em primeira pessoa em um mundo aberto pós-apocalíptico tomado por zumbis comedores de carne humana. Atravesse uma cidade devastada por um vírus misterioso. Procure por suprimentos, crie armas e enfrente os infectados.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_the_evil_within_2.jpg" alt="The Evil Within 2">
+                                            <h5 class="text-colored fw-bold mt-2">The Evil Within 2</h5>
+                                            <h6>De <strike>R$155,00</strike> para R$31,00</h6>
+                                            <p>O detetive Sebastian Castellanos perdeu tudo, inclusive sua filha, Lily. Para salvá-la, ele deve descer ao mundo tenebroso de STEM. Ameaças assustadoras surgem de cada canto, e ele deve confiar na sua perspicácia para sobreviver. Para sua chance de redenção, a única forma de sair é entrar.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab_4">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/banner_street_fighter_6.jpg" alt="Street Fighter 6">
+                                            <h5 class="text-colored fw-bold mt-2">Street Fighter 6</h5>
+                                            <h6>R$249,00</h6>
+                                            <p>Aí vem o mais novo desafiante da Capcom! Street Fighter™ 6 será lançado no mundo inteiro em 2 de junho de 2023 e representa a próxima evolução da série Street Fighter™! Street Fighter 6 engloba três modos de jogo distintos, incluindo World Tour, Fighting Ground e Battle Hub.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="/img/banner_guilty_gear_strive.jpg" alt="Guilty Gear Strive">
+                                            <h5 class="text-colored fw-bold mt-2">Guilty Gear Strive</h5>
+                                            <h6>R$173,99</h6>
+                                            <p>The cutting-edge 2D/3D hybrid graphics pioneered in the Guilty Gear series have been raised to the next level in “GUILTY GEAR -STRIVE-“. The new artistic direction and improved character animations will go beyond anything youve seen before in a fighting game!</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/banner_tekken_8.jpg" alt="TEKKEN 8">
+                                            <h5 class="text-colored fw-bold mt-2">TEKKEN 8</h5>
+                                            <h6>R$269,90</h6>
+                                            <p>Prepare-se para o próximo capítulo da lendária franquia de jogos de luta: TEKKEN 8.</p>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="img/banner_ultimate_marvel_vs_capcom_3.jpg" alt="Ultimate Marvel VS Capcom 3">
+                                            <h5 class="text-colored fw-bold mt-2">Ultimate Marvel VS Capcom 3</h5>
+                                            <h6>R$54,99</h6>
+                                            <p>A Marvel e a Capcom unem forças para oferecer as batalhas 3 contra 3 mais frenéticas de sempre com o Ultimate Marvel vs. Capcom 3. Esta versão inclui todos os DLC anteriores e Marvel vs. Capcom: Official Complete Works.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="fale-conosco">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">Conosco</span></h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="nome">Nome</label>
+                                    <input class="form-control" id="nome" type="text" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="email">E-mail</label>
+                                    <input class="form-control" id="email" type="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="tel">Número (opcional)</label>
+                                    <input class="form-control" id="tel" type="tel" >
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label fw-bold text-colored" for="msg">mensagem</label>
+                                    <textarea class="form-control" id="msg" required></textarea>
+                                </div>
+                                <button class="btn fw-bold" type="submit">enviar</button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes Sociais
+                                </h3>
+                                <ul class="social-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5 ms-1 me-1">
+                                        <a href="#">
+                                            <i class="bi bi-instagram text-colored"></i>
+                                        </a>
+                                    </li>
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-whatsapp text-colored"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title text-colored fs-4">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereco
+                                </h3>
+                                <p>Rua x, barrio y, N 123, cidade z</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

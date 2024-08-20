@@ -1,0 +1,61 @@
+body{
+    font-family: "Anek Devanagari", sans-serif;
+}
+
+.navbar{/*header*/
+    background-color: #182A3C;
+}
+
+#cabecalho .nav .nav-link .active{/*link que esta ativo*/
+    background-color: #E5E5DF;
+    color: #182A3C;
+}
+.navbar-toggler{
+    background-color: #3C638D;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-pills .nav-link{
+    color: #E5E5DF;
+}
+
+.nav-pills .nav-link.active{
+    background-color: #3C638D;
+}
+
+.section-title{
+    font-family: "Jersey 10", sans-serif;
+}
+
+#home,
+#jogos{
+    background-color: #7A8B9D;
+}
+
+.text-colored{/*alteracao de texto*/
+    color: #3C638D;
+}
+
+#fale-conosco button{
+    background-color: #182A3C;
+    color: #E5E5DF;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+
+    
+}
